@@ -6,8 +6,12 @@
 
 #header
 {
-	background: #ccc;
-	padding: 20px;
+	background: #222;
+    padding:20px;
+    color : white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
 }
 
 #header h1 { margin: 0; }
@@ -52,19 +56,21 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color: #222222;
+    color: white;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    color: white;
 }
 
 #edito h2
 {
-	color: #000;
+	color:cornflowerblue;
 	font-size: 160%;
 	margin: 0 0 .5em;
+    text-transform: uppercase;
+    font-family: sans-serif;
 }
 
 #news
@@ -77,19 +83,35 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color: #222222;
+    color: white;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
 }
 
+#news h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color:cornflowerblue;
+    
+}
+
+#news a{
+    color: darkorange;
+    text-decoration: none;
+}
+
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #222;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    color: white;
+}
+
+#footer a{
+    color: darkorange;
 }
